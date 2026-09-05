@@ -30,7 +30,7 @@ and mailboxes. Developed and simulated on EDA Playground using Cadence Xcelium.
 
 ```
 codes/
-├── design/      # DUT RTL: design.sv, apb_master.sv, apb_uart_slave.sv,
+├── design/      # DUT RTL: apb_uart_top.sv, apb_master.sv, apb_uart_slave.sv,
 │                #          uart_top.sv, baud_rate_gen.sv, uart_tx.sv, uart_rx.sv
 └── testbench/   # Verification env: testbench.sv, interface.sv, trans.sv,
                  #   generator.sv, case1.sv, case2.sv, driver.sv, monitor.sv,
