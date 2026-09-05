@@ -1,0 +1,45 @@
+[2026-09-05 01:54:55 UTC] xrun -Q -unbuffered '-timescale' '1ns/1ns' '-sysv' '-access' '+rw' design.sv testbench.sv  
+TOOL:	xrun	25.03-s001: Started on Sep 04, 2026 at 21:54:56 EDT
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+	Top level design units:
+		$unit_0x11654eeb
+		tb
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[MON] t=520055000 write_data=f5 read_data=f5
+pass : wrote f5, read back f5
+[DRV] t=520065000  wrote=f5  read=f5
+[MON] t=1040055000 write_data=c6 read_data=c6
+pass : wrote c6, read back c6
+[DRV] t=1040065000  wrote=c6  read=c6
+[MON] t=1560055000 write_data=4c read_data=4c
+pass : wrote 4c, read back 4c
+[DRV] t=1560065000  wrote=4c  read=4c
+[MON] t=2080055000 write_data=4c read_data=4c
+pass : wrote 4c, read back 4c
+[DRV] t=2080065000  wrote=4c  read=4c
+[MON] t=2600055000 write_data=70 read_data=70
+pass : wrote 70, read back 70
+[DRV] t=2600065000  wrote=70  read=70
+[MON] t=3120055000 write_data=76 read_data=76
+pass : wrote 76, read back 76
+[DRV] t=3120065000  wrote=76  read=76
+[MON] t=3640055000 write_data=75 read_data=75
+pass : wrote 75, read back 75
+[DRV] t=3640065000  wrote=75  read=75
+[MON] t=4160055000 write_data=8f read_data=8f
+pass : wrote 8f, read back 8f
+[DRV] t=4160065000  wrote=8f  read=8f
+[MON] t=4680055000 write_data=2b read_data=2b
+pass : wrote 2b, read back 2b
+[DRV] t=4680065000  wrote=2b  read=2b
+[MON] t=5200055000 write_data=ac read_data=ac
+pass : wrote ac, read back ac
+[DRV] t=5200065000  wrote=ac  read=ac
+Simulation complete via $finish(1) at time 20 MS + 0
+./testbench.sv:19     $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Sep 04, 2026 at 21:54:58 EDT  (total: 00:00:02)
+Done
